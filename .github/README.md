@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-qconnect`](https://www.npmjs.com/package/@aws-sdk/client-qconnect/v/3.938.0).
+[`@aws-sdk/client-qconnect`](https://www.npmjs.com/package/@aws-sdk/client-qconnect/v/3.939.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qconnect@3.938.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qconnect@3.939.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-vqmq6vosGT98SMLtbBx2rVFK1trF9Xhi8Sif4tJxN7Wiy+AG5V6JpsUT3jQbH9Kr
+sha384-ucl3ePa6StdcjSxFULM4Bp0NBuKD8MXdyid/7kcDaEKqbSLYlS1uau4odiUR+Wh8
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-qconnect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qconnect@3.938.0/index.min.mjs"
+            "@aws-sdk/client-qconnect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qconnect@3.939.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qconnect@3.938.0/index.min.mjs": "sha384-vqmq6vosGT98SMLtbBx2rVFK1trF9Xhi8Sif4tJxN7Wiy+AG5V6JpsUT3jQbH9Kr"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qconnect@3.939.0/index.min.mjs": "sha384-ucl3ePa6StdcjSxFULM4Bp0NBuKD8MXdyid/7kcDaEKqbSLYlS1uau4odiUR+Wh8"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-qconnect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qconnect@3.938.0/index.min.mjs"
+                        "@aws-sdk/client-qconnect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qconnect@3.939.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qconnect@3.938.0/index.min.mjs": "sha384-vqmq6vosGT98SMLtbBx2rVFK1trF9Xhi8Sif4tJxN7Wiy+AG5V6JpsUT3jQbH9Kr"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qconnect@3.939.0/index.min.mjs": "sha384-ucl3ePa6StdcjSxFULM4Bp0NBuKD8MXdyid/7kcDaEKqbSLYlS1uau4odiUR+Wh8"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.938.0`)
+* Always pin to a specific version (`@3.939.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-qconnect/blob/refs/tags/3.938.0/LICENSE
+https://github.com/cloud-sdk-builds/client-qconnect/blob/refs/tags/3.939.0/LICENSE
 ```
 
 ---
